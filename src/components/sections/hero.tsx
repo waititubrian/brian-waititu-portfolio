@@ -79,11 +79,11 @@ export function Hero() {
           variants={childVariants}
           className="mt-10 flex flex-col items-center gap-4 sm:flex-row"
         >
-          <Button size="lg" render={<a href="#projects" />}>
+          <Button size="lg" nativeButton={false} render={<a href="#projects" />}>
             View Projects
             <ArrowRight className="size-4" data-icon="inline-end" />
           </Button>
-          <Button size="lg" variant="outline" render={<a href="#contact" />}>
+          <Button size="lg" variant="outline" nativeButton={false} render={<a href="#contact" />}>
             Contact Me
           </Button>
         </motion.div>

@@ -54,16 +54,16 @@ export function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
-          <Button variant="ghost" size="icon" render={<a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" />}>
+          <Button variant="ghost" size="icon" nativeButton={false} render={<a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" />}>
             <GithubIcon className="size-4" />
           </Button>
-          <Button variant="ghost" size="icon" render={<a href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" />}>
+          <Button variant="ghost" size="icon" nativeButton={false} render={<a href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" />}>
             <LinkedinIcon className="size-4" />
           </Button>
-          <Button variant="ghost" size="icon" render={<a href={siteConfig.links.upwork} target="_blank" rel="noopener noreferrer" aria-label="Upwork" />}>
+          <Button variant="ghost" size="icon" nativeButton={false} render={<a href={siteConfig.links.upwork} target="_blank" rel="noopener noreferrer" aria-label="Upwork" />}>
             <UpworkIcon className="size-4" />
           </Button>
-          <Button size="sm" render={<a href="#contact" />} className="ml-2">
+          <Button size="sm" nativeButton={false} render={<a href="#contact" />} className="ml-2">
             Contact Me
           </Button>
         </div>
@@ -94,13 +94,13 @@ export function Navbar() {
               ))}
             </nav>
             <div className="mt-4 flex items-center gap-2 border-t border-border px-4 pt-4">
-              <Button variant="outline" size="icon" render={<a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" />}>
+              <Button variant="outline" size="icon" nativeButton={false} render={<a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" />}>
                 <GithubIcon className="size-4" />
               </Button>
-              <Button variant="outline" size="icon" render={<a href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" />}>
+              <Button variant="outline" size="icon" nativeButton={false} render={<a href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" />}>
                 <LinkedinIcon className="size-4" />
               </Button>
-              <Button variant="outline" size="icon" render={<a href={siteConfig.links.upwork} target="_blank" rel="noopener noreferrer" aria-label="Upwork" />}>
+              <Button variant="outline" size="icon" nativeButton={false} render={<a href={siteConfig.links.upwork} target="_blank" rel="noopener noreferrer" aria-label="Upwork" />}>
                 <UpworkIcon className="size-4" />
               </Button>
             </div>
