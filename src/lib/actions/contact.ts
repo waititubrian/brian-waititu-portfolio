@@ -48,7 +48,7 @@ export async function sendContactMessage(
   try {
     const resend = new Resend(apiKey);
     const { error } = await resend.emails.send({
-      from: process.env.CONTACT_FROM_EMAIL ?? "Portfolio Contact Form <onboarding@resend.dev>",
+      from: process.env.CONTACT_FROM_EMAIL || "Portfolio Contact Form <onboarding@resend.dev>",
       to: siteConfig.email,
       replyTo: email,
       subject: `New message from ${name} via portfolio site`,

@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState, useEffect } from "react";
+import { useActionState, useEffect, useRef } from "react";
 import { toast } from "sonner";
 import { Mail, Loader2 } from "lucide-react";
 import { GithubIcon, LinkedinIcon, UpworkIcon } from "@/components/icons";
@@ -24,8 +24,12 @@ const contactLinks = [
 
 export function Contact() {
   const [state, formAction, isPending] = useActionState(sendContactMessage, initialState);
+  const lastHandledState = useRef<ContactFormState | null>(null);
 
   useEffect(() => {
+    if (state === lastHandledState.current) return;
+    lastHandledState.current = state;
+
     if (state.status === "success") {
       toast.success(state.message ?? "Message sent.");
     } else if (state.status === "error" && state.message) {
