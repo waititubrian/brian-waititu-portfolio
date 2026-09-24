@@ -48,45 +48,47 @@ export const projects: Project[] = [
     ],
     images: [
       "/projects/sift-intake-dashboard/landing-page.png",
-      "/projects/sift-intake-dashboard/intake-form.png"
+      "/projects/sift-intake-dashboard/intake-page.png",
+      "/projects/sift-intake-dashboard/dashboard-page.png",
+      "/projects/sift-intake-dashboard/scoring-page.png"
     ],
     live: "https://siftbase.vercel.app",
     featured: true,
   },
-  {
-    slug: "dashboard-application",
-    name: "Dashboard Application",
-    category: "development",
-    tagline: "TODO: one-line summary of this dashboard",
-    description: [
-      "TODO: describe the dashboard's purpose, key features, and your role in building it.",
-    ],
-    tech: [],
-    images: [],
-    featured: true,
-  },
-  {
-    slug: "pcx-pay",
-    name: "PCX Pay",
-    category: "development",
-    tagline: "TODO: one-line summary of PCX Pay",
-    description: [
-      "TODO: describe what PCX Pay does, who it's for, and your role in building it.",
-    ],
-    tech: [],
-    images: [],
-    featured: true,
-  },
-  {
-    slug: "test-automation-framework",
-    name: "TODO: QA automation project name",
-    category: "qa-automation",
-    tagline: "TODO: one-line summary of this automation framework/project",
-    description: [
-      "TODO: describe what this framework tests, the tools it's built with, and its role in the CI/CD pipeline.",
-    ],
-    tech: [],
-    images: [],
-    featured: true,
-  },
+  // {
+  //   slug: "dashboard-application",
+  //   name: "Dashboard Application",
+  //   category: "development",
+  //   tagline: "TODO: one-line summary of this dashboard",
+  //   description: [
+  //     "TODO: describe the dashboard's purpose, key features, and your role in building it.",
+  //   ],
+  //   tech: [],
+  //   images: [],
+  //   featured: true,
+  // },
+  // {
+  //   slug: "pcx-pay",
+  //   name: "PCX Pay",
+  //   category: "development",
+  //   tagline: "TODO: one-line summary of PCX Pay",
+  //   description: [
+  //     "TODO: describe what PCX Pay does, who it's for, and your role in building it.",
+  //   ],
+  //   tech: [],
+  //   images: [],
+  //   featured: true,
+  // },
+  // {
+  //   slug: "test-automation-framework",
+  //   name: "TODO: QA automation project name",
+  //   category: "qa-automation",
+  //   tagline: "TODO: one-line summary of this automation framework/project",
+  //   description: [
+  //     "TODO: describe what this framework tests, the tools it's built with, and its role in the CI/CD pipeline.",
+  //   ],
+  //   tech: [],
+  //   images: [],
+  //   featured: true,
+  // },
 ];

@@ -83,7 +83,7 @@ export default async function ProjectPage({
                 alt={`${project.name} screenshot ${i + 1}`}
                 fill
                 sizes="(min-width: 768px) 768px, 100vw"
-                className="object-cover"
+                className="object-cover object-top"
               />
             ) : (
               <div className="bg-gradient-brand flex h-full w-full items-center justify-center opacity-20">

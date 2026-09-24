@@ -12,11 +12,11 @@ export const siteConfig = {
     upwork: "https://www.upwork.com/freelancers/~017ab7f0e847b8c5fd",
   },
   nav: [
-    { label: "Projects", href: "#projects" },
-    { label: "Services", href: "#services" },
-    { label: "Skills", href: "#skills" },
-    { label: "Experience", href: "#experience" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Projects", href: "/#projects" },
+    { label: "Services", href: "/#services" },
+    { label: "Skills", href: "/#skills" },
+    { label: "Experience", href: "/#experience" },
+    { label: "About", href: "/#about" },
+    { label: "Contact", href: "/#contact" },
   ],
 } as const;

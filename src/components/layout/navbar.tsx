@@ -35,7 +35,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link
-          href="#top"
+          href="/#top"
           className="text-sm font-semibold tracking-tight text-foreground"
         >
           {siteConfig.name}
@@ -63,7 +63,7 @@ export function Navbar() {
           <Button variant="ghost" size="icon" nativeButton={false} render={<a href={siteConfig.links.upwork} target="_blank" rel="noopener noreferrer" aria-label="Upwork" />}>
             <UpworkIcon className="size-4" />
           </Button>
-          <Button size="sm" nativeButton={false} render={<a href="#contact" />} className="ml-2">
+          <Button size="sm" nativeButton={false} render={<Link href="/#contact" />} className="ml-2">
             Contact Me
           </Button>
         </div>

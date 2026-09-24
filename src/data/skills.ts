@@ -17,6 +17,7 @@ export const skillGroups: SkillGroup[] = [
       "PostgreSQL",
       "Prisma",
       "Supabase",
+      "Clerk",
       "Tailwind CSS",
       "Docker",
       "AWS",
