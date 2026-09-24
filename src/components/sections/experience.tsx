@@ -21,10 +21,11 @@ export function Experience() {
                   aria-hidden
                   className="bg-gradient-brand absolute top-1.5 -left-[5px] size-2.5 rounded-full"
                 />
-                <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                  <h3 className="text-lg font-semibold text-foreground">
-                    {role.role} · {role.company}
-                  </h3>
+                <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground">{role.role}</h3>
+                    <p className="text-sm font-medium text-foreground">{role.company}</p>
+                  </div>
                   <span className="text-sm text-muted-foreground">{role.period}</span>
                 </div>
                 <Badge variant="secondary" className="mt-2 font-normal">

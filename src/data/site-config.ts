@@ -1,10 +1,9 @@
-// TODO: replace `url` once you know the production domain this deploys to.
 export const siteConfig = {
   name: "Brian Muraya",
   role: "Full-Stack Developer",
   tagline:
     "Full-Stack Developer building SaaS MVPs, dashboards, and business web applications with the Next.js ecosystem, with a background in software quality and test automation for enterprise applications.",
-  url: "https://brianwaititu.com", // TODO: replace with your production domain
+  url: "https://brianwaititu.com", // placeholder until a real domain is live
   email: "waititubrian9@gmail.com",
   links: {
     github: "https://github.com/waititubrian",

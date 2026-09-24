@@ -2,12 +2,9 @@ import { CheckCircle2 } from "lucide-react";
 import { SectionHeading } from "@/components/section-heading";
 import { Reveal } from "@/components/motion/reveal";
 
-// TODO: personalize this with specifics only you can verify — years of
-// experience, industries you've worked in, or a notable engagement —
-// without overstating anything.
 const focusPoints = [
   "Building SaaS MVPs, dashboards, and business web applications on the Next.js ecosystem",
-  "Bringing a QA background — testing enterprise applications and building automation frameworks",
+  "Bringing a QA background - testing enterprise applications and building automation frameworks",
   "Thinking about edge cases and real-world usage from the start, not as an afterthought",
 ];
 
@@ -28,7 +25,7 @@ export function About() {
             Next.js ecosystem.
           </p>
           <p className="text-base text-muted-foreground text-pretty sm:text-lg">
-            My background is in QA Engineering — testing enterprise
+            My background is in QA Engineering - testing enterprise
             applications and building the automation frameworks that keep
             them reliable as they grow. That&apos;s where I developed a close
             attention to edge cases and real-world usage, and it shapes how

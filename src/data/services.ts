@@ -12,7 +12,7 @@ export const services: Service[] = [
     icon: Rocket,
     title: "SaaS MVPs",
     description:
-      "Take a product idea from zero to a working MVP — auth, billing, and core workflows built on a stack that scales with you.",
+      "Take a product idea from zero to a working MVP - auth, billing, and core workflows built on a stack that scales with you.",
   },
   {
     icon: Building2,

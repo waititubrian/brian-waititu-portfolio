@@ -60,7 +60,7 @@ export async function sendContactMessage(
       return { status: "error", message: "Something went wrong sending your message. Please try again." };
     }
 
-    return { status: "success", message: "Thanks — your message has been sent. I'll reply soon." };
+    return { status: "success", message: "Thanks - your message has been sent. I'll reply soon." };
   } catch (err) {
     console.error("Contact form send failed:", err);
     return { status: "error", message: "Something went wrong sending your message. Please try again." };

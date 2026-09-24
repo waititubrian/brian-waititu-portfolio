@@ -69,7 +69,7 @@ export function Contact() {
 
           <Reveal delay={0.1}>
             <form action={formAction} className="flex flex-col gap-5">
-              {/* Honeypot field — hidden from real users, catches simple bots */}
+              {/* Honeypot field - hidden from real users, catches simple bots */}
               <div className="hidden" aria-hidden="true">
                 <label htmlFor="company">Company</label>
                 <input id="company" name="company" type="text" tabIndex={-1} autoComplete="off" />
